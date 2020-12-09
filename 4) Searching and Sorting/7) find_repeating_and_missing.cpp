@@ -1,6 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+//TC : O(n) 
+//AS : O(1)
+
 /* APPROACH : Traverse the array. 
 While traversing, use the absolute value of every element as an index and 
 make the value at this index as negative to mark it visited. 
