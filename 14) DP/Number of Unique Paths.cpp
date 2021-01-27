@@ -4,6 +4,9 @@ possible unique paths to reach the bottom-right cell of the matrix from the init
 
 NOTE : Possible moves can be either down or right at any point in time, 
 i.e., we can move to matrix[i+1][j] or matrix[i][j+1] from matrix[i][j].
+
+Expected Time Complexity: O(A*B)
+Expected Auxiliary Space: O(A*B)
 */
 
 #include <bits/stdc++.h>
