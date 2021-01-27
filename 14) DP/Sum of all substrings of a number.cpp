@@ -11,6 +11,9 @@ Output: 1670
 Explanation: Sum = 1 + 2 + 3 + 4 + 12 +
 23 + 34 + 123 + 234 + 1234 = 1670
 
+Expected Time Complexity: O(N)
+Expected Auxiliary Space: O(N)
+
 */
 
 #include <bits/stdc++.h>

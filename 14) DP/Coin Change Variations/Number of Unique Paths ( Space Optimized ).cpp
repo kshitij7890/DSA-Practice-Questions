@@ -19,7 +19,7 @@ int main()
 
 int NumberOfPath(int a, int b) 
 {
-    int dp[b]={1};
+    int dp[b]={0};
     dp[0]=1;
     
     for(int i=0;i<a;i++)
