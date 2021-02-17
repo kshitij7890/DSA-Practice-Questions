@@ -1,6 +1,8 @@
 /*
 
 Smallest Positive missing number (Approach 1) -- By Rachit Jain Youtube Channel
+TC : O(N)
+AS : O(1)
 
 APPROACH : 
 We try to place 1 at index ( 1-1 ) , 2 at index (2-1) , 3 at index (3-1) , and so on.... and at last we traverse again 
@@ -17,11 +19,9 @@ int missingNumber(int arr[], int n)
 {
     for (int i = 0; i < n; i++)
     {
-        int correctpos = arr[i] - 1;
-        while (arr[i] <= n && arr[i] >= 1 && arr[i] != arr[correctpos])
+        while (arr[i] <= n && arr[i] >= 1 && arr[i] != arr[arr[i] - 1])
         {
-            swap(arr[correctpos], arr[i]);
-            correctpos = arr[i] - 1;
+            swap(arr[arr[i] - 1], arr[i]);
         }
     }
 
@@ -29,8 +29,8 @@ int missingNumber(int arr[], int n)
     {
         if (arr[i] != i + 1)
             return i + 1;
-
-        if (i == n - 1 && arr[i] == i + 1)
-            return n + 1;
     }
+            
+    return n + 1;
+    
 }
