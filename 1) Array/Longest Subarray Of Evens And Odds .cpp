@@ -33,9 +33,7 @@ int maxEvenOdd(int arr[], int n)
 }
 
 /*
-
 LOGIC : KADANE ALGO VARIANT
 Check for alternate odd and even numbers. In that case keep increasing the counter and storing the maximum length.
 As soon as you get two continuous odd or even numbers change the counter to 1.
-
 */
