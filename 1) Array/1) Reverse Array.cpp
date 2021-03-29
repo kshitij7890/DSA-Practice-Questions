@@ -12,6 +12,7 @@ void string_reverse(string s)
         start++;
         end--;
     }
+
     for(int i=0;i<len;i++)
 	    {
 	        cout<<s[i];
