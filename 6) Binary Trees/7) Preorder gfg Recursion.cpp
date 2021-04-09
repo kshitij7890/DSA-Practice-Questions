@@ -8,7 +8,6 @@ void preorder_util(Node* root,vector<int> &arr)
   }
 }
 
-
 vector <int> preorder(Node* root)
 {
    vector<int>arr;
