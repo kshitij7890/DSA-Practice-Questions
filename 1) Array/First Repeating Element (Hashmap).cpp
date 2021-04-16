@@ -20,7 +20,6 @@ int firstRepeated(int arr[], int n)
 
 int main()
 {
-
     int t;
     cin >> t;
 
