@@ -10,6 +10,7 @@ vector<int> largestAndSecondLargest(int n, int arr[]){
      {
          max1=max(max1,arr[i]);
      }
+
      for(int i=0;i<n;i++)
      {
          if(arr[i]!=max1)
