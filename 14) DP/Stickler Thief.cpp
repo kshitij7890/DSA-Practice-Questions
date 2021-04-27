@@ -39,7 +39,7 @@ typedef long long int ll;
 ll FindMaxSum(ll arr[], ll n)
 {
     if (n == 1)
-        return arr[0];
+        {return arr[0];}
     ll prevprev = arr[0];
     ll prev = max(arr[0], arr[1]);
     ll res = prev;
