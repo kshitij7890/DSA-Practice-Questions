@@ -42,7 +42,6 @@ long long countWays(int m)
 
 int main()
 {
-    //taking total testcases
     int t;
     cin >> t;
     while (t--)
