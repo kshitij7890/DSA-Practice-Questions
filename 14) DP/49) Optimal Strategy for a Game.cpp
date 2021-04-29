@@ -74,11 +74,10 @@ long long maximumAmount(int arr[], int n)
 int main()
 {
 
-    int T;
-    cin >> T;
-    while (T--)
+    int t;
+    cin >> t;
+    while (t--)
     {
-
         int N;
         cin >> N;
 
