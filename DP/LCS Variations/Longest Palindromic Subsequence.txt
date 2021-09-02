@@ -1,0 +1,7 @@
+To find length of Longest Palindromic Subsequence of a string , do LCS of that string with its reverse. 
+
+EXAMPLE :
+S1 : GEEKSFORGEEKS
+S2 : SKEEGROFSKEEG (Reverse of S1)
+
+ANS : 5 (Length of LCS) 
